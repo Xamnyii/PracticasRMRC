@@ -1,4 +1,13 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["es2020", "dom", "dom.iterable"],
+    "target": "es2020",
+    "module": "esnext",
+    "types": ["node"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowJs": true
+  },
   "extends": "expo/tsconfig.base"
 }
